@@ -45,10 +45,6 @@ a {
 
 }
 
-a:hover {
-  text-transform: uppercase;
-}
-
 section {
   display: flex;
   flex-wrap: wrap;
@@ -69,7 +65,7 @@ article h1 {
 }
 
 #promotion {
-  border: 1px solid #8C5F5A;
+  border: 1px solid #8C5F5A;;
   border-radius: 15px;
   background-image: url("../images/ring.jpg");
   background-position: center;
@@ -81,16 +77,6 @@ article h1 {
   padding: 0.3rem;
   text-align: left;
   
-}
-#promotion h2 {
-  position: relative;
-  text-transform: uppercase;
-  color: #83504a;
-  text-shadow: -15px 5px 20px #3f3736;
-  letter-spacing: -0.05em;
-  font-family: 'Anton', Arial, sans-serif;
-  user-select: none;
-  transition: all 0.25s ease-out;
 }
 
 article p {

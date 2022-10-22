@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Mangata &amp; Gallo jewelry store</title>
+
+  <meta name="description" content="Mangata &amp; Gallo is a beautiful and modern jewelry store">
+  <meta name="auther" content="Mangata &amp; Gallo jewelry store">
+  
+  
+  
+<link rel="stylesheet" href="./Mangata &amp; Gallo jewelry store_files/styles.css"></head>
+<body>
+  <header>
+    <img src="./Mangata &amp; Gallo jewelry store_files/Asset 3@3x.png" alt="The store logo" width="50%">
+  </header>
+  <nav>
+    <ul id="navbar">
+      <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+      <li><a href="http://127.0.0.1:5500/jewelry.html">Jewelry</a></li>
+      <li><a href="http://127.0.0.1:5500/wishlist.html">Wishlist</a></li>
+      <li><a href="http://127.0.0.1:5500/customer-service.html">Customer Service</a></li>
+      <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <article id="promotion">
+        <h2>Mid Season Sale</h2>
+        <h1>20% OFF</h1>
+        <p></p>
+        <button>MORE DETAIILS</button>
+      </article>
+    </section>
+    <section id="content">  
+      <article>
+        <h2>Gifts Idea</h2>
+        <img src="./Mangata &amp; Gallo jewelry store_files/jewelry-ideas.jpg" alt="jewelry ideas photos">
+        <p>Jewelry is a beautiful way to say "Thank You" for everything!Give the gift of shine. </p>
+        <button>Explore More</button>
+      </article>
+      <article>
+        <h2>Get Inspired</h2>
+        <img src="./Mangata &amp; Gallo jewelry store_files/jewelry-stock-precelets.jpg" alt="photo to style your jewelry">
+        <p>Your source for the latest trends, styling tips and inspiration for all things jewelry.</p>
+        <button>Explore More</button>
+      </article>
+      <article>
+        <h2>Featured Collictions</h2>
+        <img src="./Mangata &amp; Gallo jewelry store_files/jewelry-necklace.jpg" alt="photo for some of our Featured collections">
+        <p>Explore our exclusive collections of the most important global brands!</p>
+        <button>Explore More</button>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <img src="./Mangata &amp; Gallo jewelry store_files/Asset 4@3x.png" alt="small logo" width="50%">
+    </div>
+    <div>
+      <p>Copyright Mangata &amp; Gallo jewelry store</p>
+    </div>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
